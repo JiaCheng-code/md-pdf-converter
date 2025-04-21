@@ -2,7 +2,7 @@ import axios from "axios";
 
 const instance = axios.create({
   // 本地开发端口，若部署可用 .env 配置
-  baseURL: "http://47.94.5.117:9527",
+  baseURL: "http://www.snaplite.xyz:9527/",
   timeout: 20000,
 });
 
